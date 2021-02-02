@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "机房预约系统", "机房预约系统\机房预约系统.vcxproj", "{768EC44B-10DB-4F90-B040-A79B4EF9133C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Debug|x64.ActiveCfg = Debug|x64
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Debug|x64.Build.0 = Debug|x64
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Debug|x86.ActiveCfg = Debug|Win32
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Debug|x86.Build.0 = Debug|Win32
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Release|x64.ActiveCfg = Release|x64
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Release|x64.Build.0 = Release|x64
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Release|x86.ActiveCfg = Release|Win32
+		{768EC44B-10DB-4F90-B040-A79B4EF9133C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6B694CA-E4FC-4973-8A5C-2AF3CF8B8562}
+	EndGlobalSection
+EndGlobal
