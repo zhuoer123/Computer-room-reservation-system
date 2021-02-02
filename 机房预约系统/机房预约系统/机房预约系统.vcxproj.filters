@@ -30,6 +30,9 @@
     <ClCompile Include="mananger.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="computerRoom.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="student.h">

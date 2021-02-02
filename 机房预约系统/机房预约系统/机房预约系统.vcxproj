@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="computerRoom.h" />
     <ClCompile Include="identity.h" />
     <ClCompile Include="mananger.cpp" />
     <ClCompile Include="student.cpp" />

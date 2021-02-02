@@ -5,6 +5,8 @@
 #include<vector>
 #include "student.h"
 #include "teacher.h"
+#include<algorithm>
+#include "computerRoom.h"
 using namespace std;
 
 class Manager : public Identity
@@ -36,6 +38,9 @@ public:
 
 	//教师容器
 	vector<Teacher> vTea;
+
+	//机房容器
+	vector<computerRoom> vCom;
 
 	//检测重复 参数:(传入id，传入类型) 返回值：(true 代表有重复，false代表没有重复)
 	bool checkRepeat(int id, int type);
