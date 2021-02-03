@@ -1,9 +1,6 @@
 #include "teacher.h"
 
-Teacher::Teacher()
-{
-
-}
+Teacher::Teacher(){}
 
 Teacher::Teacher(int empId, string name, string pwd)
 {

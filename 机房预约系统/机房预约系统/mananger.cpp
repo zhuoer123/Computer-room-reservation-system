@@ -3,10 +3,7 @@
 #include "student.h"
 #include "teacher.h"
 
-Manager::Manager()
-{
-
-}
+Manager::Manager(){}
 
 Manager::Manager(string name, string pwd)
 {

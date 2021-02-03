@@ -1,10 +1,7 @@
 #include "student.h"
 #include "orderFile.h"
 
-Student::Student()
-{
-
-}
+Student::Student(){}
 
 //有参构造
 Student::Student(int id, string name, string pwd)
@@ -219,11 +216,11 @@ void Student::cancelOrder()
 	}
 	cout << "审核中或预约成功的记录可以取消，请输入取消的记录" << endl;
 
-	vector<int>v;
+	vector<int>v;  //存放某个成员的预约信息
 	int index = 1;
 	for (int i = 0; i < of.m_Size; i++)
 	{
-		if (atoi(of.m_orderData[i]["stuId"].c_str()) == this->m_Id)
+		if (this->m_Id == atoi(of.m_orderData[i]["stuId"].c_str()))
 		{
 			if (of.m_orderData[i]["status"] == "1" || of.m_orderData[i]["status"] == "2")
 			{

@@ -50,7 +50,6 @@ void managerMenu(Identity*& manager)
 			system("cls");
 			return;
 		}
-
 	}
 }
 
@@ -277,7 +276,6 @@ int main()
 			system("cls");
 			break;
 		}
-
 	}
 	system("pause");
 	return 0;
