@@ -2,6 +2,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 #include "identity.h"
+#include "orderFile.h"
+#include<vector>
 
 using namespace std;
 
